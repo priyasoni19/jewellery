@@ -1,0 +1,192 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(196, 183, 191);
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgb(13, 112, 134);
+    font-size: 20px;
+    margin-right: 0%;
+    position: sticky;
+    top: 0%;
+    text-decoration: none;
+    
+}
+
+.logo{
+    width: 120px;
+}
+
+ul{
+    list-style-type:none;
+    float: right;
+}
+
+ul li{
+    display:inline-block;
+    margin: 25px 20px;
+    margin-top: 40px;
+    padding: 0px 15px;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: black;
+}
+
+li input {
+    width: 150px;
+    height: 30px;
+}
+.read{
+    position: absolute;
+    top: 15px;
+    left: 500px;
+    right: 500px;
+}
+img.landing{
+    width: 100%;
+  
+
+}
+.stay{
+    position: relative;
+
+}
+
+.profit{
+    text-align: center;
+    font-size: 50px;
+}
+
+.ctr{
+    float: right;
+}
+
+.ctr,.enter{
+    display: inline-block;
+    margin: 5px;
+    
+}
+p{
+    text-align: center;
+}
+
+.pgup{
+    width: 488px;
+    height: 496px;
+}
+
+.space{
+    margin: 20px;
+    height: 480px;
+    display: flex;
+    gap:20px;
+    background-color:rgb(13, 112, 134);
+
+}
+.alt {
+    padding-top: 85px;
+}
+.alt label {
+    font-size: 21px;
+    color: white;
+}
+.alt input {
+    width: 250px;
+    height: 50px;
+    border: none;
+}
+.alt button{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: powderblue;
+    padding: 10px;
+    
+}
+.alt{
+margin-left: 180px;                                 
+
+}
+
+.alt h2,.alt p{
+    text-align: center;
+    margin: 15px;
+    margin-right: 45px;
+    color: white;
+}
+
+.footer{
+    display: inline-block;
+    margin-top: 100px;
+    background-color: whitesmoke;
+    color: white;
+}
+
+
+.fdivmain{
+display: grid;
+/* grid-template-columns: auto auto auto; */
+grid-template-columns: 22% 22% 22% 22%;
+justify-content: center;
+margin: 2%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flink h3,.fbrands h3,.fabout h3 {
+    text-align: center;
+}
+
+
+.fdivmain div a{
+text-decoration: none;
+color: black;
+}
+.fdivmain h3{
+color: black;
+}
+.flink {
+padding-top: 10px;
+padding-left: 120px;
+}
+footer p {
+padding-top: 10px;
+color: black;
+}
+.fbrands {
+padding: 10px;
+padding-left: 80px;
+}
+
+.fabout {
+padding: 10px;
+}
+
+.fabout input:hover{
+border-radius: 5px;
+}
+
+.fdivmain a:hover {
+/* background-color: #ddd; */
+color: rgba(160, 11, 11, 0.728);
+text-decoration: underline;
+}
+
+
+
+
